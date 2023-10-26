@@ -1,0 +1,26 @@
+HackElite_Stratagem2k23
+
+
+we r making a website for hospital, where patient will do registration from home 
+
+our patient age group is between 30 to 70 years old
+
+suggest key point / theme that is convenient for above age group for our website UI and form UI
+
+Sure, here are some key points and themes you could consider for your website UI and form UI:
+
+Clear and easy-to-read fonts: Since your target audience is between 30 to 70 years old, it's important to use fonts that are easy to read, even for those with less-than-perfect eyesight. Choose fonts that are large, bold, and sans-serif to make them more legible.
+
+Simple and intuitive navigation: Make sure your website is easy to navigate, with clear menus and labels. Avoid using complex terminology or jargon that may be unfamiliar to your users.
+
+Mobile-friendly design: Your patients may be accessing your website from their mobile devices, so make sure your design is optimized for mobile screens. Use responsive design techniques to ensure that your website looks and works great on any device.
+
+Visual aids and icons: Use icons and images to help guide users through the registration process. For example, you could use an icon of a person filling out a form to indicate where users should go to start the registration process.
+
+Clear instructions and error messages: Provide clear instructions for each step of the registration process, and use error messages to help users correct any mistakes they make along the way.
+
+Security and privacy assurances: Since you'll be collecting sensitive information from your patients, it's important to assure them that their information will be kept secure and private. Include information about your privacy policy and any security measures you've put in place to protect their data.
+
+Easy-to-fill-out forms: Make your registration forms as simple and straightforward as possible. Use autocomplete features, dropdown menus, and pre-filled fields to help speed up the process and reduce errors.
+
+Overall, focus on making your website and registration process as user-friendly and accessible as possible, while also providing reassurance and security to your patients.

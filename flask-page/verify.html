@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Patient Verification</title>
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap/css/bootstrap.min.css?h=fd8a6a9fe8905f16e933ab18f835770f"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/fonts/simple-line-icons.min.css?h=5aae26cfc631423a28ee9f3eea8618b0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/vanilla-zoom.min.css?h=b1904b38fb5db9c70aa0a0b48e09a39c"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand logo" href="#">Brand</a
+        ><button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navcol-1"
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registration.html">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <section class="clean-block about-us">
+        <div class="container">
+          <div class="block-heading">
+            <h2 class="text-info">Patient Verification</h2>
+            <p>Verify and get your token</p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-sm-4 col-lg-">
+              <div class="card text-center clean-card">
+                <!-- <img
+                  class="card-img-top w-100 d-block"
+                  src="assets/img/avatars/avatar1.jpg?h=2bf47f2c2deaed837d2490a2db0a7175"
+                /> -->
+                <img src="{{ url_for('video_feed') }}" height="80%" />
+
+                <form
+                  class="card-img-top w-100 d-block"
+                  method="post"
+                  action="{{ url_for('tasks') }}"
+                >
+                  <input
+                    type="submit"
+                    value="Capture"
+                    name="click"
+                    class="btn btn-info btn-sm btn-block"
+                  />
+                </form>
+
+                <div class="card-body info">
+                  <h4 class="card-title">John Smith</h4>
+                  <p class="card-text">
+                    Be stady and take photo under Good Light
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Start: Footer Dark -->
+
+    <footer class="page-footer dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5>Get started</h5>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Sign up</a></li>
+              <li><a href="#">Downloads</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5>About us</h5>
+            <ul>
+              <li><a href="#">Company Information</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Reviews</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Help desk</a></li>
+              <li><a href="#">Forums</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5>Legal</h5>
+            <ul>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>© 2023 Copyright Text</p>
+      </div>
+    </footer>
+    <!-- End: Footer Dark -->
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=981245863c383366a329259d02b8172c"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script src="assets/js/vanilla-zoom.js?h=6a37ea9c996b05f763161c73127d66bc"></script>
+    <script src="assets/js/theme.js?h=a083aeb15550c5e1266c666e8a5846d9"></script>
+  </body>
+</html>
